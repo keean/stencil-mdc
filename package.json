@@ -15,13 +15,16 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "^0.7.22",
+    "@material/auto-init": "^0.34.0",
+    "@material/button": "^0.34.1",
+    "@stencil/core": "^0.7.24",
     "@stencil/router": "latest"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
+    "@stencil/sass": "0.0.3",
     "@stencil/utils": "latest",
-    "@types/jest": "^21.1.1",
+    "@types/jest": "^21.1.10",
     "jest": "^21.2.1"
   },
   "repository": {

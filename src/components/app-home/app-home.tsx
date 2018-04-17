@@ -1,9 +1,8 @@
 import { Component } from '@stencil/core';
 
-
 @Component({
   tag: 'app-home',
-  styleUrl: 'app-home.css'
+  styleUrl: 'app-home.scss'
 })
 export class AppHome {
 
@@ -17,11 +16,9 @@ export class AppHome {
           Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
         </p>
 
-        <stencil-route-link url='/profile/stencil'>
-          <button>
-            Profile page
-          </button>
-        </stencil-route-link>
+        <button class="positive-button mdc-button">
+          Profile page
+        </button>
       </div>
     );
   }
